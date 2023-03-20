@@ -58,3 +58,43 @@
   4px 4px 0px #999,
   5px 5px 0px #999;
 }
+
+.add-s {
+  margin: 13px 20px 12px 21px;
+  font-size: 25px;
+}
+
+#intext2 {
+  width: 180px;
+  height: 35px;
+  margin: 30px 0px;
+  padding: 0px 15px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.btn {
+  padding: 8px 20px;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  background: #fb6868;
+  box-shadow: 1px 1px 0px #999,
+  2px 2px 0px #999,
+  3px 2px 0px #999,
+  4px 4px 0px #999,
+  5px 5px 0px #999;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.main h1 {
+  margin: 30px 0px;
+}
+.main h1 span {
+  color: #fb6868;
+}

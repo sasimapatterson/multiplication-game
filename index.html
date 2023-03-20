@@ -31,7 +31,7 @@
           </div>
 
           <div class="box-col">
-            <input type="textf" id="intext" class="intext11">
+            <input type="textf" id="intext1" class="intext11">
           </div>
 
         </div>
@@ -50,11 +50,31 @@
    </div>
 
    <script>
-    let n1 = Math.floor(Math.random()*20+1);
-    let n2 = Math.floor(Math.random()*20+1);
+    let n1 = Math.floor(Math.random()*12+1);
+    let n2 = Math.floor(Math.random()*12+1);
 
     document.getElementById("intext").value = n1;
     document.getElementById("intext1").value = n2;
+
+    let multiply = n1 * n2;
+
+    function Game() {
+      var user = document.getElementById("intext2").value;
+
+      if( user == multiply ) {
+        document.getElementById("ans").innerHTML = "Yes! You got it!";
+      } else {
+        document.getElementById("ans").innerHTML = "The correct answer is " + multiply + " . Try Again";
+      }
+
+      var user = document.getElementById("intext2").value = "";
+
+      n1 = Math.floor(Math.random()*12+1);
+      n2 = Math.floor(Math.random()*12+1);
+
+      multiply = n1 * n2;
+
+    }
    </script>
 </body>
 </html>
